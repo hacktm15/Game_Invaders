@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{4B39BF7F-76E4-C633-E354-B8046D113A5F}") = "GameInvaders", "Assembly-CSharp.csproj", "{004FDF02-340E-9037-48E4-6100B6309B00}"
 EndProject
+Project("{4B39BF7F-76E4-C633-E354-B8046D113A5F}") = "GameInvaders", "Assembly-CSharp-Editor.csproj", "{819BC055-DD53-B4FB-4D0F-084997CCD01B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{004FDF02-340E-9037-48E4-6100B6309B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{004FDF02-340E-9037-48E4-6100B6309B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{004FDF02-340E-9037-48E4-6100B6309B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{819BC055-DD53-B4FB-4D0F-084997CCD01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819BC055-DD53-B4FB-4D0F-084997CCD01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819BC055-DD53-B4FB-4D0F-084997CCD01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819BC055-DD53-B4FB-4D0F-084997CCD01B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-											GlobalSection(MonoDevelopProperties) = preSolution
+																GlobalSection(MonoDevelopProperties) = preSolution
 =======
 						GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> 9dd77b2b90ad729b53f66cb36f67806f2928a082
