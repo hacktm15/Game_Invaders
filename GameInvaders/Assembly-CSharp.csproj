@@ -45,6 +45,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GameController.cs" />
      <Compile Include="Assets\PacMan\Scripts\AI.cs" />
      <Compile Include="Assets\PacMan\Scripts\Energizer.cs" />
      <Compile Include="Assets\PacMan\Scripts\GUI Scripts\GameGUINavigation.cs" />
@@ -63,7 +64,7 @@
      <Compile Include="Assets\PacMan\Scripts\Point.cs" />
      <Compile Include="Assets\PacMan\Scripts\TargetGizmo.cs" />
      <Compile Include="Assets\PacMan\Scripts\UIScript.cs" />
-<<<<<<< HEAD
+     <Compile Include="Assets\Pong\PlayerControls.cs" />
      <Compile Include="Assets\SpaceInvaders\Done\Done_Scripts\Done_BGScroller.cs" />
      <Compile Include="Assets\SpaceInvaders\Done\Done_Scripts\Done_DestroyByBoundary.cs" />
      <Compile Include="Assets\SpaceInvaders\Done\Done_Scripts\Done_DestroyByContact.cs" />
@@ -74,9 +75,10 @@
      <Compile Include="Assets\SpaceInvaders\Done\Done_Scripts\Done_PlayerController.cs" />
      <Compile Include="Assets\SpaceInvaders\Done\Done_Scripts\Done_RandomRotator.cs" />
      <Compile Include="Assets\SpaceInvaders\Done\Done_Scripts\Done_WeaponController.cs" />
-=======
-     <Compile Include="Assets\Pong\PlayerControls.cs" />
->>>>>>> 9dd77b2b90ad729b53f66cb36f67806f2928a082
+     <Compile Include="Assets\SpaceInvaders\Scripts\DestroyByBoundary.cs" />
+     <Compile Include="Assets\SpaceInvaders\Scripts\DestroyByContact.cs" />
+     <Compile Include="Assets\SpaceInvaders\Scripts\Mover.cs" />
+     <Compile Include="Assets\SpaceInvaders\Scripts\PlayerController1.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
