@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerControls : MonoBehaviour
+public class PlayerControlsHorizontal: MonoBehaviour
 {
 
     //Use this for initialization
@@ -13,6 +13,6 @@ public class PlayerControls : MonoBehaviour
     void Update()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        transform.position = new Vector3( transform.position.x, Mathf.Clamp(ray.GetPoint(10f).y,-2.0f,2.0f),transform.position.z);
+        transform.position = new Vector3(Mathf.Clamp( ray.GetPoint(10f).x,-2.5f,2.5f), transform.position.y, transform.position.z);
     }
 }
